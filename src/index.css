@@ -48,3 +48,13 @@ body {
   font-size: 1rem;
   @apply font-light;
 }
+
+sup,
+sub {
+  vertical-align: baseline;
+  position: relative;
+  font-size: 1rem;
+}
+sub {
+  top: 0.4em;
+}
