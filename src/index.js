@@ -56,7 +56,7 @@ function NavBar() {
             </div>
             <div className="flex items-center justify-center">
               <a
-                href="https://chrome.google.com/webstore/detail/your-extension-id"
+                href="https://chrome.google.com/webstore/detail/script-scan/kljkclbeopgkgkilideimbkdjihdlkag/related"
                 className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
               >
                 Download
@@ -85,12 +85,20 @@ root.render(
         <p>Turbocharge your github contributions with succint code summaries</p>
         <br />
         <br />
-        <a
-          href="https://chrome.google.com/webstore/detail/your-extension-id"
-          className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
-        >
-          Download Extension
-        </a>
+        <div className="flex flex-row justify-center content-center space-x-5">
+          <a
+            href="https://chrome.google.com/webstore/detail/script-scan/kljkclbeopgkgkilideimbkdjihdlkag/related"
+            className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+          >
+            Download Extension
+          </a>
+          <a
+            href="https://www.youtube.com/watch?v=H6rNOktAarc"
+            className="inline-flex items-center px-4 py-2 border border-transparent text-base leading-6 font-medium rounded-md text-white bg-indigo-600 hover:bg-indigo-500 focus:outline-none focus:border-indigo-700 focus:shadow-outline-indigo active:bg-indigo-700 transition ease-in-out duration-150"
+          >
+            Watch Tutorial
+          </a>
+        </div>
         <p className="absolute bottom-0 w-full text-center mb-5">
           Please give us some{" "}
           <a
