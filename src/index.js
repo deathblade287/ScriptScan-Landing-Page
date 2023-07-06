@@ -15,7 +15,7 @@ function NavLink({ children, ...props }) {
       smooth={true}
       offset={-70}
       duration={500}
-      className="hover:text-blue-500 cursor-pointer font-medium"
+      className="cursor-pointer font-medium"
       {...props}
     >
       <p className="hover:scale-110">{children}</p>
@@ -47,9 +47,12 @@ function NavBar() {
               </a>
             </div>
             <div className="flex justify-around w-1/2 mx-auto items-center">
-              <NavLink to="pricing-section">Pricing</NavLink>
+              {/* <NavLink to="pricing-section">Pricing</NavLink>
               <NavLink to="faq-section">FAQ</NavLink>
-              <NavLink to="credits-section">Credits</NavLink>
+              <NavLink to="credits-section">Credits</NavLink> */}
+              <p className="text-center">
+                Coming Soon: Repo Summaries, Chatting With Files & Pricing Plan
+              </p>
             </div>
             <div className="flex items-center justify-center">
               <a
@@ -79,11 +82,7 @@ root.render(
 
         <h2>Code to natural language</h2>
         <br />
-        <p>
-          The only chrome extension that summarizes code files hosted on github
-          so that <br />
-          you don't have to waste time reading before you start contributing.
-        </p>
+        <p>Turbocharge your github contributions with succint code summaries</p>
         <br />
         <br />
         <a
